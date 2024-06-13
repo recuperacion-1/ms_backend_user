@@ -1,0 +1,38 @@
+{
+  "name": "recuperacion-examen",
+  "version": "1.0.0",
+  "description": "Esta es la recuperacion del último examen",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app/index.js --exec babel-node",
+    "build": "babel app -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/examenfinalbecerra/ms_backend_user.git"
+  },
+  "keywords": [
+    "examen",
+    "final"
+  ],
+  "author": "Juan Pablo Arango Giraldo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/examenfinalbecerra/ms_backend_user/issues"
+  },
+  "homepage": "https://github.com/examenfinalbecerra/ms_backend_user#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/node": "^7.24.7",
+    "@babel/plugin-transform-runtime": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "nodemon": "^3.1.3"
+  }
+}
