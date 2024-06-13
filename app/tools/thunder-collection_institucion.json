@@ -1,0 +1,86 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "institucion",
+    "collectionId": "b2e58202-f4f1-4c10-9911-08fc63ddc4a7",
+    "dateExported": "2024-06-13T15:34:15.151Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "8206ce4e-afb1-46cb-8cf3-087ffd352c2f",
+            "colId": "b2e58202-f4f1-4c10-9911-08fc63ddc4a7",
+            "containerId": "",
+            "name": "eliminarUsuario",
+            "url": "http://localhost:3000/app/salon",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2024-05-15T12:32:09.769Z",
+            "modified": "2024-06-13T13:45:26.578Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\":\"1\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "ad84635a-0ef6-43bc-a8f9-3f2767e8d7b8",
+            "colId": "b2e58202-f4f1-4c10-9911-08fc63ddc4a7",
+            "containerId": "",
+            "name": "mostrarestudiante",
+            "url": "http://localhost:3000/api/salon",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-15T12:32:30.285Z",
+            "modified": "2024-06-13T15:05:37.039Z",
+            "headers": []
+        },
+        {
+            "_id": "7d37c290-5043-444e-8e89-538024a00a55",
+            "colId": "b2e58202-f4f1-4c10-9911-08fc63ddc4a7",
+            "containerId": "",
+            "name": "modificarestudiante",
+            "url": "http://localhost:3000/app/salon",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-05-15T12:32:50.698Z",
+            "modified": "2024-06-13T13:09:01.081Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\":\"1\", \n  \"nombre\":\"juan\",\n  \n  \"clave\":\"12\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "b8f39a69-5c9d-41e3-a2f7-845fd7d6f6f0",
+            "colId": "b2e58202-f4f1-4c10-9911-08fc63ddc4a7",
+            "containerId": "",
+            "name": "crearestudiante",
+            "url": "http://localhost:3000/api/salon",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-05-15T12:32:59.354Z",
+            "modified": "2024-06-13T15:12:04.597Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"juanaa\",\n  \"estudiante\": \"266\",\n  \"clave\": \"143\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "16da9659-40ac-4c7f-8091-306a4ba441c7",
+            "colId": "b2e58202-f4f1-4c10-9911-08fc63ddc4a7",
+            "containerId": "",
+            "name": "listarestudiante",
+            "url": "http://localhost:3000/api/salon",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-05-15T12:33:09.566Z",
+            "modified": "2024-06-13T15:15:32.948Z",
+            "headers": []
+        }
+    ],
+    "ref": "3Mf8O09im6Xhu6vHME7Wi8VZUMzePGx8kbNNcrp_wGhjbFbOVIGvMC_MPIP-iXDZ35VyUxDfsl4L2F6QD65upw"
+}
